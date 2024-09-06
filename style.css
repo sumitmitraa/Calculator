@@ -1,0 +1,62 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.calculator{
+  margin: 15px 10px;
+  padding: 5px;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(220, 221, 221);
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.Result{
+  margin: 5px;
+  padding: 5px;
+  width: 94%;
+  height: 20%;
+  font-size: 30px;
+  /* border: 1px solid; */
+  border-radius: 5px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.numbers{
+  padding: 5px;
+  margin: 5px;
+  width: 60%;
+  height: 90px;
+}
+
+.number{
+  font-size: 20px;
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+}
+
+.operations{
+  margin: 5px;
+  width: 40%;
+  height: 90px;
+}
+
+.operation{
+  font-size: 20px;
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+}
+
+.equal{
+  font-size: 20px;
+  height: 60px;
+  width: 130px;
+  margin: 5px;
+}
